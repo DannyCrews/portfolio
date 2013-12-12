@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Oleo+Script+Swash+Caps);
+
+/* These are the global styles */
+
+html {
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oleo Script Swash Caps", sans-serif;
+}
+
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+a:visited {text-decoration: none;}
+
+
+.section-spacer {
+  height: 100px;
+}
+
+/* navigation styles */
+
+.navigation-offset-fix {
+  height: 200px;
+}
+
+.navigation-wrapper {
+  background: black;
+  margin-top: -20px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navigation-wrapper ul {
+  margin-bottom: 0;
+}
+
+.navigation-wrapper a {
+  color: #ddd;
+}
+
+.navigation-wrapper li {
+  display: inline-block;
+  height: 60px;
+  padding: 40px 35px 50px 35px;
+}
+
+.navigation-wrapper li:hover {
+  background: #333;
+}
+
+.navigation-wrapper a:hover {
+  color: white;
+}
+
+.navigation-wrapper .title {
+  /*float: left;*/
+  position: absolute;
+  text-indent: 30px;
+  padding-top: 24px;
+}
+
+.buttons-wrapper {
+  text-align: center;
+}
+
+
+/* Section Styles */
+
+section {
+  text-align: center;
+}
+
+.about-content p{
+  font-size: 24px;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Portfolio section */
+
+.project {
+  margin-bottom: 30px;
+  padding: 20px;
+  /*border: 1px solid #444;*/
+}
+
+.project span {
+  display: none;
+}
+
+.project-image {
+
+  padding: 20px;
+}
+
+.project-image img {
+  opacity: 0.9;
+}

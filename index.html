@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dan Crews</title>
+<title>My Application Portfolio</title>
   <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="foundation.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
   <script type="text/javascript" src='modernizr.js'></script>
   <script type="text/javascript" src='foundation.js'></script>
- <script type="text/javascript" src='transit.js'></script>
+  <script type="text/javascript" src='transit.js'></script>
   <script type="text/javascript" src='main.js'></script>
 </head>
 <body>
@@ -17,95 +17,111 @@
     <h1 class='title'><a href="navigation-wrapper">Dan Crews</a></h1>
     <div class="buttons-wrapper">
       <ul>
-        <a href="about"><li>
-          ABOUT
-        </li></a>
-        <a href="work"><li>
-          WORK
-        </li></a>
-        <a href="contact"><li>
-          CONTACT
-        </li></a>
-        <a class='direct-link' href="http://github.com/dannycrews" target='_blank'><li>
-          GITHUB
-        </li></a>
+        <a href="about">
+          <li>
+            About
+          </li>
+        </a>
+        <a href="works">
+          <li>
+            Works
+          </li>
+        </a>
+        <a href="contact">
+          <li>
+            Contact
+          </li>
+        </a>
+        <a href="https://github.com/dannycrews" target="_blank" class="direct-link">
+          <li>
+            Github
+          </li>
+        </a>
       </ul>
     </div>
   </nav>
 
-  <div class='nav-offset-fix'></div>
+  <div class="navigation-offset-fix"></div>
 
-  <section class='about'>
+  <section class = "about">
     <div class='row'>
       <h1>About</h1>
     </div>
-    <div class='about-content row'>
+    <div class="about-content row">
       <div class='small-12 medium-4 columns'>
         <h2>About Me</h2>
-        <p>Hi! I'm Dan Crews, a web developer in Boston. I write mostly in Ruby and Javascript.</p>
+        <p> I'm a full-stack web developer, technologist and electrical engineer. I work primarily with Ruby, Rails and JavaScript. </p>
       </div>
       <div class='small-12 medium-4 columns'>
-        <h2>What I Do</h2>
-        <p>HI BEN A million ****ing diamonds! Yeah, well, have you seen the new Mustang? You could hump that hood. No! These are just strippers! Look how hot they are! Ann, you need to decide whether you want a man or a boy. I know how I'd answer.</p>
+        <h2>Why hire me?</h2>
+        <p> I love to write code, I love to build things and I've always taken my product to production. </p>
       </div>
       <div class='small-12 medium-4 columns'>
-        <h2>Things I Like</h2>
-        <p>Look at us, crying like a bunch of girls on the last day of camp. It's The Final Countdown. Family Love Michael. NO TOUCHING!</p>
+        <h2>A Brief History of Dan</h2>
+        <p> 7 years in the US Navy. 25 years designing and building wireless systems, radio access networks and travelling the world. Now I'm following my muse and writing web apps. I also love Legos and robots!</p>
       </div>
     </div>
   </section>
 
   <div class='section-spacer'></div>
 
-  <section class='work'>
-    <div class='row'><h1>Work</h1></div>
-    <div class='work-content row'>
-
-      <div class='small-6 columns project'>
-        <h2>Sweet Project</h2>
-        <div class='project-image'>
-          <img src='#'>
-        </div>
-        <span class='project-description'>This is an awesome description</span>
-        <span class='project-link'><a href='#'>Check it out!</a></span>
-      </div>
-
-      <div class='small-6 columns project'>
-        <h2>Sweet Project</h2>
-        <div class='project-image'>
-          <img src='#'>
-        </div>
-        <span class='project-description'>This is an awesome description</span>
-        <span class='project-link'><a href='#'>Check it out!</a></span>
-      </div>
-
-      <div class='small-6 columns project'>
-        <h2>Sweet Project</h2>
-        <div class='project-image'>
-          <img src='#'>
-        </div>
-        <span class='project-description'>This is an awesome description</span>
-        <span class='project-link'><a href='#'>Check it out!</a></span>
-      </div>
-
-      <div class='small-6 columns project'>
-        <h2>Sweet Project</h2>
-        <div class='project-image'>
-          <img src='#'>
-        </div>
-        <span class='project-description'>This is an awesome description</span>
-        <span class='project-link'><a href='http://ladyparts.herokuapp.com'>Check it out!</a></span>
-      </div>
-
-
+  <section class = "works">
+    <div class='row'>
+      <h1>Works</h1>
     </div>
+    <div class="works-content row">
 
-  </section>
+      <div class="small-6 columns project"> 
+        <h2> Congress Watch</h2>
+        <div class='project-image'>
+          <a href="http://congress-watch.herokuapp.com/">
+            <img src="resources/CongressWatch.png"></a>
+          </div>
+          <span class='project-description'>Keeping an eye on the US Congress using the Sunlight Foundation and New York Times congressional API's.</span>
+          <span class='project-link'><a href="http://congress-watch.herokuapp.com/"> Check it out! </a></span>
+        </div>
 
-  <section class='contact'>
-    <h1>Contact</h1> 
-    <div style='height:500px;'></div>
-  </section>
+        <div class="small-6 columns project"> 
+          <h2> Rollin' with the Dead </h2>
+          <div class='project-image'>
+            <a href="http://www.dead.net/">
+              <img src="resources/gratefuldead.jpg"></a>
+            </div>
+            <span class='project-description'>This is my awesome description for this project.</span>
+            <span class='project-link'><a href="http://www.dead.net/"> Check it out! </a></span>
+          </div>
 
-</body>
-</html>
+          <div class="small-6 columns project"> 
+            <h2> RubyKhan </h2>
+            <div class='project-image'>
+              <a href="http://rubygems.org/gems/rubykhan">
+                <img src="resources/rubykhan.png"></a>
+              </div>
+              <span class='project-description'>A Ruby wrapper around the Khan Academy API.</span>
+              <span class='project-link'><a href="http://rubygems.org/gems/rubykhan"> Check it out! </a></span>
+            </div>
+            <div class="small-6 columns project"> 
+              <h2> EnviroView </h2>
+              <div class='project-image'>
+                <a href="http://enviroview.herokuapp.com/">
+                  <img src="resources/enviroview.png"></a>
+                </div>
+                <span class='project-description'>A look at carbon emissions across the US. Powered by the EPA API and Google Maps.</span>
+                <span class='project-link'><a href="http://enviroview.herokuapp.com/"> Check it out! </a></span>
+              </div>
+
+            </div>
+
+
+          </section>
+
+
+          <section class = "contact">
+            <h1>Contact</h1>
+            <h2>dancrews@me.com</h2>
+            <div style="height:500px"></div>
+          </section>
+
+
+        </body>
+        </html>
